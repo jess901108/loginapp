@@ -1,0 +1,16 @@
+"dependencies": {
+    "bcryptjs": "*",  //password hashing (bcrypt has too many dependencies)
+    "body-parser": "*",  //parse json
+    "connect-flash": "*",  //flash messages
+    "cookie-parser": "^1.4.1", 
+    "express": "*",
+    "express-handlebars": "*", //for view engine (like jade)
+    "express-messages": "*", //
+    "express-session": "*",  // flash messages
+    "express-validator": "*", //validate form
+    "mongodb": "*",
+    "mongoose": "*", //orm? to interact with database
+    "passport": "*",  //other modules for facebook/twitter login
+    "passport-http": "*",
+    "passport-local": "*" //local database
+  }
